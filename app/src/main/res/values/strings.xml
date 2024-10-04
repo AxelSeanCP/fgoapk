@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Fate/Grand Order Servants</string>
+
+    <string name="servant_name">Nama Servant</string>
+    <string name="description">Deskripsi</string>
+    <string name="button_more">More</string>
+
+    <string-array name="data_name">
+        <item>Arcueid Brunestud</item>
+        <item>Arjuna</item>
+        <item>Ciel</item>
+        <item>Duryodhana</item>
+        <item>Enkidu</item>
+        <item>James Moriarty</item>
+        <item>Jeanne d\'Arc</item>
+        <item>Karna</item>
+        <item>Meltryllis</item>
+        <item>Morgan</item>
+        <item>Okita Souji</item>
+        <item>Sherlock Holmes</item>
+        <item>Tenochtitlan</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Arcueid Brunestud is the White Princess of the True Ancestors. The title of Brunestud was given to those True Ancestors capable of manifesting the Millennium Castle Brunestud, and has been likened to be the vampire royal family, although this is not strictly true. The True Ancestors were a race of beings copied from Type-Moon, the ultimate being of the moon, also known as the Crimson Moon.</item>
+        <item>Arjuna was a hero in Hindu Mythology from the ancient Indian epic poem, Mahabharata, and was one of its protagonists. He was the rival of Karna and one of the greatest archers of ancient India along with Rama, Laxmana, Karna and Parashurama.</item>
+        <item>At times, a vampire hunter exploring Earth. At times, a captivating instructor from a bad end help corner. And at other times, a saintly idol from the Sapphire Galaxy, known only to the initiated. Her true identity is Space Ciel, an Executor ordained with exterminating planetary bloodsuckers.</item>
+        <item>Duryodhana is a major character in the ancient Indian epic Mahabharata. The eldest of the Hundred Princes who opposed the Five Princes that Arjuna and Bhima were part of. Duryodhana was a master of the mace and a warrior acknowledged by Krishna, but he was ultimately defeated in a duel against Bhima and died trusting Ashwatthama to carry on his will</item>
+        <item>The only friend of Gilgamesh. Born from a clod of earth, Enkidu was clay shaped by hands of the Gods, their father the king of gods, Anu, and their mother the goddess of creation, Aruru. They were neither male nor female, but merely a monster made of mud that descended onto the earth and awoke in the wilderness. They opened their eyelids in response to a voice calling to them from afar, taking in the sight of the expanses of land and sky and the towering city in the distance. The voice was unknown to Enkidu, but it was neither the maternal hand nor the paternal rebuke.</item>
+        <item>In the Sherlock Holmes Series, this mathematics professor is famous as Holmes\' greatest and strongest rival. Despite appearing in only three works - furthermore, most of the time, he is merely mentioned by Holmes - the charisma of this evil genius nevertheless obtained tremendous endorsing thanks to the secret maneuvering during Holmes’ final case (although he would later be revived…). A genius, philosopher, thinker, and an extremely outstanding intellect. Holmes once said that he was the "Napoleon of the Criminal World“ - despite being a simple mathematics professor, his organization web supposedly spread all over Europe. According to the setting revealed within the story, he engaged in a job that was like a criminal consultant so to speak - or something.</item>
+        <item>Jeanne d\'Arc, the Standard-Bearer who Correctly Guides the Holy Grail War, was the Saint of Orleans. A Catholic saint born in 1412 Domrémy, France, and the heroine of France who liberated Orléans in the Hundred Years\' War</item>
+        <item>The Son of the Sun God, the invulnerable hero of the Indian epic Mahabharata, as a hero on the vanquished side. The central conflict of The Mahabharata is the war over influence between the Pandava royal family and Kaurava royal family. Karna became famous as the rival of Arjuna, the great hero of Hindu mythology.</item>
+        <item>An alter ego was created by BB as a Heroic Spirit-Complex. Classified as a High-Servant, she was created from BB accessing the Moon Cell\'s Servant Archive and selecting goddesses compatible with Ego from inside of it. She reproduced their data, and Meltryllis came to existence as a Composite Divinity.</item>
+        <item>The Lostbelt Queen who rules over Faerie Britain. Originally named Vivianeshe was created by the planet in 4,000 BC to be the savior of Britain. She was taken in and raised by the Rain Clan in Orkney. One day, she received the memories of Proper Human History Ruler Morgan le Fay. During her 16th birthday, the Rain Clan was massacred overnight by an alliance of the Wind, Earth, Fang, and Wing clans. They were killed for protecting the Fairy of Paradise. In fulfilling her role as savior, she used the name Aesc the Savior as an alias given to her by her adoptive mother after Orkney\'s destruction.</item>
+        <item>Okita Souji was the captain of the first unit of the Shinsengumi, a public order organization that was mostly active in the Kyoto of the Edo period\'s closing days. Even among the Shinsengumi, which was feared as a band of master swordsmen, the one admired as the strongest genius swordsman was Okita</item>
+        <item>The world\'s greatest, most famous and sole consulting detective, the genuine father of all detectives. The crystallization of the concept of detectives, the representative of "the Revealers". The protagonist of the stories written by Sir Arthur Conan Doyle in the 19th~20th centuries, and the detective that solved every mystery, and in the many mystery novels written after, he is one of the progenitors of "Detectives". Or so it is said. But is that really the truth?</item>
+        <item>Her true identity is a spirit that resided within their city, a Servant that personified the city itself. Its name is Tenochtitlan. The capital of the Aztec Empire, which existed from the 14th to 16th centuries. Although Tenochtitlan was located on the water, it was the newest and largest urban model of its time, with 300,000 inhabitants and not a single peasant in the city, but only the king, priests, nobles, merchants, and slaves.</item>
+    </string-array>
+
+    <string-array name="data_noble_phantasm">
+        <item>Marble Phantasm\nFantasy Manifestation</item>
+        <item>Pashupata\nRaised Hand of the Destruction God</item>
+        <item>Calvaria Galgalim\nIdea Blood: Hemonomic Principle - Guillotine</item>
+        <item>Jai Kaurava\nThe Firstborn Among the Hundred Sons</item>
+        <item>Enuma Elish\nO\' Humans, Let Us Restrain The Gods</item>
+        <item>The Dynamics of an Asteroid\nThe Ultimate Crime</item>
+        <item>Luminosité Eternelle\nGod is Here With Me</item>
+        <item>Vasavi Shakti\nO\' Sun, Abide to Death</item>
+        <item>Blue Summer Palladion\nThat Summer Dew is Like Glass</item>
+        <item>Roadless Camelot\nThe Now Unreachable Utopia</item>
+        <item>Mumyō Sandan-Zuki\nAvidyā Three-Stage Thrust</item>
+        <item>Elementary My Dear\nIt\'s Quite Simple, My Friend</item>
+        <item>Ometeotl Tenochtitlan\nHeart of Mexico Twofold Booting Sequence</item>
+    </string-array>
+
+    <string-array name="data_np_description">
+        <item>Adds Millennium Castle Battlefield status to field for 3 turns. (Activates first)\nDeals damage to all enemies.\nDeals extra damage to enemies with Chaotic Alignment.</item>
+        <item>Deals damage to all enemies.\n50% Chance to Instant-Kill them.\n80% Chance to Instant-Kill Divinity enemies.</item>
+        <item>Ignores Evasion for 1 turn. (Activates first)\n Ignores Defense for 1 turn. (Activates first)\nDeals damage to one enemy.\nDeals 150% extra damage against Demonic enemies.\n100% Chance to Instant-Kill enemies.\nCharges own NP gauge by 20%.</item>
+        <item>Deals damage to all enemies.</item>
+        <item>Deals damage to one enemy.\nDeals 200% extra damage to Threat to Humanity enemy.\n500% Chance to Stun Divinity enemy for 1 turn.</item>
+        <item>Deals damage to one enemy.</item>
+        <item>Grants party Invincibility for 1 turn.\nIncreases party\'s defense for 3 turns.\nRemoves party\'s debuffs.</item>
+        <item>Deals damage to all enemies.\nReduces their Buster resistance by 20% for 3 turns.</item>
+        <item>Removes all enemies\' Evasion buffs on Waterside Battlefield. (Activates first)\nDeals damage that ignores defense buffs to them.</item>
+        <item>Increases own damage against Round Table Knight or Fae enemies by 50% for 1 turn. (Activates first)\nDeals damage to all enemies.\nInflicts Curse status with 1000 damage for 5 turns to them.\nOvercharges party\'s NP by 1 stage for 1 time, 3 turns</item>
+        <item>Deals damage that ignores defense buffs to one enemy.</item>
+        <item>500% Chance to reduce all enemies\' defense for 3 turns.\nGrants party Ignore Invincibility for 3 turns.\nGrants party Ignore Defense for 3 turns.</item>
+        <item>increases own NP generation rate by 20% on Waterside Battlefield for 1 turn.\n(Activates first)\nDeals damage to all enemies.\nIncreases party\'s NP damage by 20% except self for 3 turns.</item>
+    </string-array>
+
+
+    <integer-array name="data_photo_icon">
+        <item>@drawable/arcueid_brunestud_icon</item>
+        <item>@drawable/arjuna_icon</item>
+        <item>@drawable/ciel_icon</item>
+        <item>@drawable/duryodhana_icon</item>
+        <item>@drawable/enkidu_icon</item>
+        <item>@drawable/james_moriarty_icon</item>
+        <item>@drawable/jeanne_darc_icon</item>
+        <item>@drawable/karna_icon</item>
+        <item>@drawable/meltryllis_icon</item>
+        <item>@drawable/morgan_icon</item>
+        <item>@drawable/okita_souji_icon</item>
+        <item>@drawable/sherlock_holmes_icon</item>
+        <item>@drawable/tenochtitlan_icon</item>
+    </integer-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/arcueid_brunestud</item>
+        <item>@drawable/arjuna</item>
+        <item>@drawable/ciel</item>
+        <item>@drawable/duryodhana</item>
+        <item>@drawable/enkidu</item>
+        <item>@drawable/james_moriarty</item>
+        <item>@drawable/jeanne_darc</item>
+        <item>@drawable/karna</item>
+        <item>@drawable/meltryllis</item>
+        <item>@drawable/morgan</item>
+        <item>@drawable/okita_souji</item>
+        <item>@drawable/sherlock_holmes</item>
+        <item>@drawable/tenochtitlan</item>
+    </integer-array>
+</resources>
