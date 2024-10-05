@@ -1,5 +1,6 @@
 package com.dicoding.fgo_servant_info
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,10 +21,16 @@ class ListServantAdapter(private val listServant: ArrayList<Servant>) : Recycler
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, noblePhantasm, npDescription, photoIcon, photo) = listServant[position]
+        val (name, description, _, _, photoIcon, _) = listServant[position]
         holder.imgPhoto.setImageResource(photoIcon)
         holder.tvName.text = name
         holder.tvDescription.text = description
+
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra(DetailActivity.EXTRA_SERVANT, listServant[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 
     override fun getItemCount(): Int = listServant.size

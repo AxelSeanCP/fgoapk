@@ -1,10 +1,13 @@
 package com.dicoding.fgo_servant_info
 
 import android.os.Bundle
+import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.appbar.MaterialToolbar
 
+// TODO: add splash screen, add about page activity 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvServants: RecyclerView
     private val list = ArrayList<Servant>()
@@ -12,6 +15,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val topAppBar: MaterialToolbar = findViewById(R.id.topAppBar)
+        setSupportActionBar(topAppBar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         rvServants = findViewById(R.id.rv_servants)
         rvServants.setHasFixedSize(true)
@@ -48,5 +55,10 @@ class MainActivity : AppCompatActivity() {
         rvServants.layoutManager = LinearLayoutManager(this)
         val listServantAdapter = ListServantAdapter(list)
         rvServants.adapter = listServantAdapter
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }

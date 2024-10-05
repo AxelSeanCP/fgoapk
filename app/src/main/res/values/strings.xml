@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Fate/Grand Order Servants</string>
 
-    <string name="servant_name">Nama Servant</string>
-    <string name="description">Deskripsi</string>
-    <string name="button_more">More</string>
+    <string name="servant_name">Servant Name</string>
+    <string name="description">Description</string>
+    <string name="noble_phantasm">Noble Phantasm</string>
+    <string name="share">Share</string>
+    <string name="about_me">About Me</string>
 
     <string-array name="data_name">
         <item>Arcueid Brunestud</item>
