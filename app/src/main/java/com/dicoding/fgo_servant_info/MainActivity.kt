@@ -1,13 +1,15 @@
 package com.dicoding.fgo_servant_info
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
 
-// TODO: add splash screen, add about page activity 
+// TODO: add splash screen
 class MainActivity : AppCompatActivity() {
     private lateinit var rvServants: RecyclerView
     private val list = ArrayList<Servant>()
@@ -60,5 +62,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.about_page -> {
+                val aboutIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(aboutIntent)
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }
