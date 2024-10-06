@@ -1,4 +1,4 @@
-# fgo-servant-info-apk
+# fgoapk
 
 A Project from Dicoding's Android Beginner Class. An Application to View Servant's Info From A Mobile Game Fate-Grand/Order
 
