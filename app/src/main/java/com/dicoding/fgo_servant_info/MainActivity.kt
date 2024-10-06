@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
 
-// TODO: add splash screen
 class MainActivity : AppCompatActivity() {
     private lateinit var rvServants: RecyclerView
     private val list = ArrayList<Servant>()
